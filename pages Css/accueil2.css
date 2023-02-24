@@ -1,0 +1,581 @@
+.madiv{
+    position: relative;
+    width: 390px;
+    height: 1538px;
+    margin: 0 auto;
+    background-color: rgb(255, 255, 255);
+    top: 200%;
+}
+
+.accueil_item{
+    /* position: sticky;
+    top: 50px; */
+    width: 390px;
+    height: 314px;
+    background-size: cover;
+    background: url("../images/accueil_item.jpg");
+    display: block;
+    z-index: 1;
+
+}
+
+.text{
+   
+    position: absolute;
+    width: 330px;
+    height: 139px;
+    left: 46px;
+    top: 107px;
+    
+    font-family: 'Itim';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 38px;
+    
+    color: #FFFFFF;
+    } 
+
+ a {color:inherit}
+
+ #menu {
+        position: absolute;
+        left: 14px;
+        top: 32px;
+     
+    }  
+    
+#menu.open {
+      background:transparent;
+    }
+    
+    
+header {
+      position:relative;
+      max-width:500px;
+    }
+ul {
+      background:orange;
+      position:absolute;
+      /* width:100%;
+      left:0; */
+      top:100px;
+      width: 356px;
+      height: 830px;
+      padding:5px 0;
+      transform:scaleY(0);
+      transform-origin:center top;
+      transition:all 0.3s ease;
+      z-index: 2;
+    }
+ul.open {
+      transform:scaleY(1);
+    }
+ul li {
+      padding:10px 0;
+      text-align:center;
+      list-style: none;
+    }
+    
+ul li a {
+        text-decoration: none;
+    }
+    
+.profil{
+        position: absolute;
+        width: 152px;
+        height: 39px;
+        left: 131px;
+        top: 112px;
+        font-weight: 400;
+        font-size: 32px;
+        text-align: center;
+    
+        color: #000000;
+    }
+.contact{
+        position: absolute;
+        width: 252px;
+        height: 48px;
+        left: 116px;
+        top: 348px;
+        font-weight: 400;
+        font-size: 32px;
+    
+        color: #000000;
+    
+    }
+    
+.confid{
+        position: absolute;
+        width: 232px;
+        height: 70px;
+        left: 102px;
+        top: 672px;
+        font-weight: 400;
+        font-size: 32px;
+        line-height: 39px;
+    
+        color: #000000;
+    
+    }
+    
+.hr1{
+        position: absolute;
+        width: 356px;
+        height: 0px;
+        left: 0px;
+        top: 253px;
+    
+        border: 1px solid #000000;
+    }
+    
+.hr2{
+        position: absolute;
+        width: 356.01px;
+        height: 0px;
+        left: 0px;
+        top: 538px;
+    
+        border: 1px solid #000000;
+    
+    }
+    
+    
+.items{
+        padding: 2;
+        margin: 2;
+    }
+
+li {
+        display: inline;
+    
+    }
+.items .leg{
+       display:inline-block;
+        margin: 0 20px;
+        text-decoration: none;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 22px;
+    
+        color: black;
+        border-bottom: solid orange;
+        text-decoration-style: solid;
+
+}
+    
+.items a{
+        display:inline-block;
+        margin: 0 20px;
+        text-decoration: none;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 22px;
+    
+        color: black;
+    }    
+
+.tomate{
+        position: absolute;
+        width: 160px;
+        height: 204px;
+        left: 18px;
+        top: 417px;
+
+        background: url(../images/tomate.jpg), #D9D9D9;
+        background-size: cover;
+        border-radius: 15px;
+
+}
+.tom{
+        position: absolute;
+        width: 104px;
+        height: 32px;
+        left: 25px;
+        top: 45px;
+        font-style: normal;
+        font-weight: 700;
+        font-size: 24px;
+
+        color: #FFFFFF;
+
+}
+
+    .oignons{
+        position: absolute;
+        width: 165px;
+        height: 158px;
+        left: 211px;
+        top: 417px;
+
+        background: url(../images/oignons.jpg), #D9D9D9;
+        background-size: cover;
+        border-radius: 15px;
+
+
+}
+.oig{
+        position: absolute;
+        width: 104px;
+        height: 32px;
+        left: 40px;
+        top: 35px;
+        font-style: normal;
+        font-weight: 700;
+        font-size: 24px;
+
+        color: #FFFFFF;
+ 
+
+}
+
+
+.ail{
+        position: absolute;
+        width: 156px;
+        height: 191px;
+        left: 20px;
+        top: 648px;
+
+        background: url(../images/ail.jpg), #D9D9D9;
+        background-size: cover;
+        border-radius: 20px;
+
+}
+
+.ai{
+        position: absolute;
+        width: 48px;
+        height: 32px;
+        left: 60px;
+        top: 25px; 
+        font-style: normal;
+        font-weight: 700;
+        font-size: 24px;
+
+        color: #FFFFFF;
+
+}
+
+.carotte{
+        position: absolute;
+        width: 163px;
+        height: 174px;
+        left: 213px;
+        top: 590px;
+
+        background: linear-gradient(0deg, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url(../images/carotte.jpg), #D9D9D9;
+        background-size: cover;
+        border-radius: 15px;
+
+    }
+
+.car{
+        position: absolute;
+        width: 107px;
+        height: 32px;
+        left: 30px;
+        top: 45px;
+        font-style: normal;
+        font-weight: 700;
+        font-size: 30px;
+
+        color: #000000;
+
+}
+
+.courgette{
+   
+        position: absolute;
+        width: 163px;
+        height: 139px;
+        left: 15px;
+        top: 853px;
+
+        background: url(../images/courgette.jpg), #D9D9D9;
+        background-size: cover;
+        border-radius: 20px;
+}
+
+.cour{
+        position: absolute;
+        width: 135px;
+        height: 32px;
+        left: 33px;
+        font-style: normal;
+        font-weight: 700;
+        font-size: 24px;
+
+        color: #000000;
+
+}
+
+.aubergine{
+    position: absolute;
+    width: 178px;
+    height: 232px;
+    left: 197px;
+    top: 800px;
+
+    background: url(../images/aubergine.jpg), #D9D9D9;
+    background-size: cover;
+    background-position-x: center;
+    border-radius: 20px;
+
+}
+
+.aub{
+    position: absolute;
+    width: 135px;
+    height: 32px;
+    left: 50px;
+    top: 70px;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+
+    color: #000000;
+
+}
+
+.Pom-terre{
+    position: absolute;
+    width: 169px;
+    height: 197px;
+    left: 15px;
+    top: 1025px;
+
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url(../images/pom-de-terre.jpg), #D9D9D9;
+    background-size: cover;
+    border-radius: 20px;
+
+}
+.PT{
+    position: absolute;
+    width: 149px;
+    height: 67px;
+    left: 23px;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+
+    color: #FFFFFF;
+
+}
+
+.poivron{
+    position: absolute;
+    width: 163px;
+    height: 165px;
+    left: 204px;
+    top: 1051px;
+
+    background: url(../images/poivron.jpg), #D9D9D9;
+    background-size: cover;
+    background-position: center;
+    border-radius: 20px;
+
+}
+
+.poiv{
+    position: absolute;
+    width: 101px;
+    height: 29px;
+    left: 50px;
+    top: 40px;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    color: #000000;
+
+}
+
+.persil{
+    position: absolute;
+    width: 168px;
+    height: 179px;
+    left: 207px;
+    top: 1230px;
+
+    background: url(../images/persil.jpg), #D9D9D9;
+    background-size: cover;
+    background-position: center;
+    border-radius: 20px;
+
+
+}
+
+.pers{
+    position: absolute;
+    width: 76px;
+    height: 29px;
+    left: 43px;
+    top: 45px;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    color: #FFFFFF;
+
+
+}
+
+.piment{
+    position: absolute;
+    width: 183px;
+    height: 193px;
+    left: 14px;
+    top: 1263px;
+
+    background: url(../images/piment.jpg), #D9D9D9;
+    background-size: cover;
+    border-radius: 20px;
+
+}
+
+.pim{
+    position: absolute;
+    width: 101px;
+    height: 29px;
+    left: 58px;
+    top: 45px;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+
+    color: #FFFFFF;
+
+}
+
+
+.gauche{
+    position: sticky;
+    width: 162px;
+    height: 60px;
+    left: 0.07%;
+    top: 96.1%;
+    border-radius: 20px;
+
+    background: #FF9900;
+
+}
+.acc {
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    left: 33px;
+    top: 2px;
+    
+    background: url(../icons/page-daccueil.png);
+    background-size: cover;
+    border-radius: 0px;
+}
+
+
+/* texte accueil */
+.txt-accueil {
+    position: absolute;
+ width: 53px;
+ height: 14px;
+ left: -2px;
+ top: 38px;
+ font-weight: 700; 
+ font-size: 13px;
+                    
+color: #FFFFFF;
+text-decoration: none;
+}
+
+.search{
+    position: absolute;
+    width: 65px;
+    height: 52px;
+    left: 163px;
+    /* top: 776px; */
+
+    background: #7DBB41;
+    border-radius: 100%;
+    box-shadow: 0px 4px 2px rgba(0, 0, 0, 0.25);
+}
+
+.droite{
+    position: absolute;
+    width: 162px;
+    height: 60px;
+    left: 140.57%;
+    top: 1%;
+    border-radius: 20px;
+
+    background: #FF9900;
+
+}
+
+.order{
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    left: 102px;
+    top: 2px; 
+
+    background: url(../icons/commande.png);
+    background-size: cover;
+}
+
+/* text commande */
+.ord{
+    position: absolute;
+    width: 71px;
+    height: 17px;
+    left: -7px;
+    top: 38px;
+    font-weight: 300;
+    font-size: 12px;
+    color: #000000;
+    text-decoration: none;
+}
+
+/* coté droit panier */
+.panier{
+    position: absolute;
+width: 30px;
+height: 30px;
+left: 30px;
+top: 6px;
+
+background: url(../icons/panier.png);
+background-size: cover;
+}
+
+.pan{
+    position: absolute;
+    width: 45px;
+    height: 19px;
+    /* left: -30px; */
+    top: 34px;
+    font-weight: 300;
+    font-size: 13px;
+    text-decoration: none;
+    color: #000000;
+}
+
+.compte{
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    left: 100px;
+    top: 6px;
+    background: url(../icons/compte.png);
+    background-size: cover;
+}
+
+.comp{
+    position: absolute;
+    width: 52px;
+    height: 17px;
+    /* left: 323px; */
+    top: 34px;
+    font-weight: 300;
+    font-size: 13px;
+    color: #000000;
+    text-decoration: none;
+}

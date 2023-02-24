@@ -1,0 +1,541 @@
+.madiv{
+    position: relative;
+    width: 390px;
+    height: 1111px;
+    margin: 0 auto;
+    background-color: rgb(255, 255, 255);
+    top: 200%;
+}
+
+
+/* Les elements du header */
+.accueil_item{
+    /* position: sticky;
+    top: 50px; */
+    width: 390px;
+    height: 314px;
+    background-size: cover;
+    background: url("../images/accueil_item.jpg");
+    display: block;
+    z-index: 1;
+
+}
+
+.text{
+   
+    position: absolute;
+    width: 330px;
+    height: 139px;
+    left: 46px;
+    top: 107px;
+    
+    font-family: 'Itim';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 38px;
+    
+    color: #FFFFFF;
+    } 
+
+
+a {color:inherit}
+
+#menu {
+        position: absolute;
+        left: 14px;
+        top: 32px;
+     
+    }  
+    
+#menu.open {
+      background:transparent;
+    }
+    
+    
+header {
+      position:relative;
+      max-width:500px;
+    }
+ul {
+      background:orange;
+      position:absolute;
+      /* width:100%;
+      left:0; */
+      top:100px;
+      width: 356px;
+      height: 830px;
+      padding:5px 0;
+      transform:scaleY(0);
+      transform-origin:center top;
+      transition:all 0.3s ease;
+      z-index: 2;
+    }
+ul.open {
+      transform:scaleY(1);
+    }
+ul li {
+      padding:10px 0;
+      text-align:center;
+      list-style: none;
+    }
+    
+ ul li a {
+        text-decoration: none;
+    }
+    
+.profil{
+        position: absolute;
+        width: 152px;
+        height: 39px;
+        left: 131px;
+        top: 112px;
+        font-weight: 400;
+        font-size: 32px;
+        text-align: center;
+    
+        color: #000000;
+    }
+.contact{
+        position: absolute;
+        width: 252px;
+        height: 48px;
+        left: 116px;
+        top: 348px;
+        font-weight: 400;
+        font-size: 32px;
+    
+        color: #000000;
+    
+    }
+    
+.confid{
+        position: absolute;
+        width: 232px;
+        height: 70px;
+        left: 102px;
+        top: 672px;
+        font-weight: 400;
+        font-size: 32px;
+        line-height: 39px;
+    
+        color: #000000;
+    
+    }
+    
+.hr1{
+        position: absolute;
+        width: 356px;
+        height: 0px;
+        left: 0px;
+        top: 253px;
+    
+        border: 1px solid #000000;
+    }
+    
+.hr2{
+        position: absolute;
+        width: 356.01px;
+        height: 0px;
+        left: 0px;
+        top: 538px;
+    
+        border: 1px solid #000000;
+    
+    }
+
+/* Fruit legume plus */
+    
+.items{
+        padding: 2;
+        margin: 2;
+    }
+
+.items li {
+        display: inline;
+    
+    }
+.items .plus{
+        display:inline-block;
+        margin: 0 20px;
+        text-decoration: none;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 24px;
+    
+        color: black;
+        border-bottom: solid orange;
+        text-decoration-style: solid;
+
+}
+    
+.items a{
+        display:inline-block;
+        margin: 0 20px;
+        text-decoration: none;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 24px;
+    
+        color: black;
+    }    
+
+    /* premiere div */
+
+.pan-fruits{
+    position: absolute;
+    width: 167px;
+    height: 142px;
+    left: -26px;
+    top: 42px;
+
+    background: url(../images/panFruits.jpg), #D9D9D9;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    background-size: cover;
+    background-position: center;
+    border-radius: 15px;
+
+}
+
+.p{
+    position: absolute;
+    width: 170px;
+    height: 76px;
+    left: 160px;
+    top: 18px;
+
+    font-weight: 400;
+    font-size: 20px;
+
+    color: #000000;
+}
+
+.Pan{
+    /* box-sizing: border-box; */
+    position: absolute;
+    width: 340px;
+    height: 222px;
+    left: 42px;
+    top: 455px;
+
+    background-color: #FFFF;
+    border: 1px solid #FF9900;
+    border-radius: 20px;
+}
+
+
+.vert{
+    position: absolute;
+    width: 170px;
+    height: 49px;
+    left: 160px;
+    top: 140px;
+    
+    background: #6CA336;
+    border-radius: 20px;
+
+}
+
+.pa{
+    position: absolute;
+    width: 146px;
+    height: 25px;
+    left: 30px;
+    top: 7px;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 24px;
+    text-decoration: none;
+    color: #FFFFFF;
+    
+
+}
+
+
+.saison{
+    position: absolute;
+    width: 356px;
+    height: 253px;
+    left: 15px;
+    top: 751px;
+
+    background: #FFFFFF;
+    border: 1px solid #FF9900;
+    border-radius: 20px;
+}
+
+.mois{
+    /* position: absolute; */
+    width: 87px;
+    height: 36px;
+
+    background: #DBDBDB;
+    border-radius: 10px;
+}
+
+.janv{
+    position: absolute;
+    width: 85px;
+    height: 26px;
+    left: 26px;
+    top:-17px;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 24px;
+
+    color: #FF9900;
+
+}
+
+.janvie{
+    position: absolute;
+    width: 116px;
+    height: 33px;
+    left: 19px;
+    top: 28px;
+
+    background: #DBDBDB;
+    border-radius: 10px;
+}
+
+.fevr{
+    position: absolute;
+    width: 92px;
+    height: 30px;
+    left: 24px;
+    top: 70px;
+
+    background: #DBDBDB;
+    border-radius: 10px;
+
+}
+
+.fev{
+    position: absolute;
+    width: 76px;
+    height: 26px;
+    left: 17px;
+    top: -15px;
+    font-weight: 700;
+    font-size: 20px;
+
+    color: #FF9900;
+    
+}
+
+.mar{
+  
+
+    position: absolute;
+    width: 78px;
+    height: 37px;
+    left: 20px;
+    top: 110px;
+
+    background: #DBDBDB;
+    border-radius: 10px;
+}
+
+
+
+.mars{
+   position: absolute;
+    width: 55px;
+    height: 26px;
+    left: 17px;
+    top: -15px;
+    font-weight: 700;
+    font-size: 20px;
+    
+    color: #FF9900;
+    
+}
+
+.avr{
+    position: absolute;
+    width: 87px;
+    height: 36px;
+    left: 24px;
+    top: 155px;
+    
+    background: #DBDBDB;
+    border-radius: 10px;
+
+}
+
+.avril{
+    position: absolute;
+    width: 55px;
+    height: 26px;
+    left: 15px;
+    top: -16px;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 24px;
+
+    color: #FF9900;
+    
+   
+        
+}
+/* 
+.mai{
+    
+}
+.juin{
+    
+}
+.juillet{
+    
+}
+.aout{
+    
+}
+.sep{
+    
+}
+.oct{
+    
+}
+.nov{
+    
+}
+.dec{
+    
+} */
+
+
+.gauche{
+    position: sticky;
+    width: 162px;
+    height: 60px;
+    left: 0.07%;
+    top: 96.1%;
+    border-radius: 20px;
+
+    background: #FF9900;
+
+}
+.acc {
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    left: 33px;
+    top: 2px;
+    
+    background: url(../icons/page-daccueil.png);
+    background-size: cover;
+    border-radius: 0px;
+}
+
+
+/* texte accueil */
+.txt-accueil {
+    position: absolute;
+ width: 53px;
+ height: 14px;
+ left: -2px;
+ top: 38px;
+ font-weight: 700; 
+ font-size: 13px;
+                    
+color: #FFFFFF;
+text-decoration: none;
+}
+
+.search{
+    position: absolute;
+    width: 65px;
+    height: 52px;
+    left: 163px;
+    /* top: 776px; */
+
+    background: #7DBB41;
+    border-radius: 100%;
+    box-shadow: 0px 4px 2px rgba(0, 0, 0, 0.25);
+}
+
+.droite{
+    position: absolute;
+    width: 162px;
+    height: 60px;
+    left: 140.57%;
+    top: 1%;
+    border-radius: 20px;
+
+    background: #FF9900;
+
+}
+
+.order{
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    left: 102px;
+    top: 2px; 
+
+    background: url(../icons/commande.png);
+    background-size: cover;
+}
+
+/* text commande */
+.ord{
+    position: absolute;
+    width: 71px;
+    height: 17px;
+    left: -7px;
+    top: 38px;
+    font-weight: 300;
+    font-size: 12px;
+    color: #000000;
+    text-decoration: none;
+}
+
+/* coté droit panier */
+.panier{
+    position: absolute;
+width: 30px;
+height: 30px;
+left: 30px;
+top: 6px;
+
+background: url(../icons/panier.png);
+background-size: cover;
+}
+
+.pan{
+    position: absolute;
+    width: 45px;
+    height: 19px;
+    /* left: -30px; */
+    top: 34px;
+    font-weight: 300;
+    font-size: 13px;
+    text-decoration: none;
+    color: #000000;
+}
+
+.compte{
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    left: 100px;
+    top: 6px;
+    background: url(../icons/compte.png);
+    background-size: cover;
+}
+
+.comp{
+    position: absolute;
+    width: 52px;
+    height: 17px;
+    /* left: 323px; */
+    top: 34px;
+    font-weight: 300;
+    font-size: 13px;
+    color: #000000;
+    text-decoration: none;
+}
+
+
+

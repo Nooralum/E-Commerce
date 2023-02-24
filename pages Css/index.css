@@ -1,0 +1,20 @@
+.madiv{
+    position: relative;
+    width: 390px;
+    height: 844px;
+    margin: 0 auto;
+    background: url(../images/load.jpg), #FFFFFF;
+    background-size: cover;
+}
+
+a{
+    position: absolute;
+    width: 143px;
+    height: 33px;
+    left: 133px;
+    top: 500px;
+    font-weight: 700;
+    font-size: 24px;
+    text-decoration: none;
+    color: #FFFFFF;
+}
